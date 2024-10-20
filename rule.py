@@ -56,18 +56,5 @@ combined_ast = combine_rules([rule1, rule2])
 data = {"age": 35, "department": "Sales", "salary": 60000, "experience": 3}
 print(evaluate_rule(combined_ast, data))  # Expected output: True
 
-# Data Schema
-"""
-Database: Postgres or SQLite
-Schema: 
-Table: rules
-- id: INT (Primary Key)
-- rule_text: TEXT (Original rule string)
-- ast_json: JSON (AST in serialized format)
-Table: users
-- id: INT (Primary Key)
-- age: INT
-- department: VARCHAR
-- salary: INT
-- experience: INT
-"""
+
+
